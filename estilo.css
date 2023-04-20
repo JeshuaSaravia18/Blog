@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color:lightsteelblue;
+}
+html{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-color: slategray;
+    color:rgb(253, 249, 214);
+    padding: 3rem 2rem;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.Contenido{
+    width: 300px;
+    margin: 0 auto;
+}
+section article{
+   transition: 0.10s ease;
+    background-color: slategrey;
+    margin: 1rem 0; border-radius: 0,5rem; padding: 0.25rem 0;
+}
+section article h2, section article p{
+    margin: 1rem;
+}
+section article:hover{
+    box-shadow : 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3)
+
+}
+footer{
+    background-color: slategray;
+    padding: 3rem;
+    color:rgb(48, 51, 53)
+    
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+color: rgb(253, 249, 214);
+text-decoration: none;
+cursor: no-drop;
+}
+footer a:hover{
+    color: rgb(253, 249, 214);
+}
